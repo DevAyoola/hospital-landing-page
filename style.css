@@ -50,12 +50,13 @@
 .description h1 {
 	color: #034bd1;
 }
+
 .description p {
 	color: rgb(37, 37, 37);
 	font-size: 20px;
-	width: 50%;
 	line-height: 1.5;
 }
+
 .description button {
 	border: 1px solid #034bd1;
 	background: #034bd1;
@@ -132,11 +133,18 @@
 	.header {
 		height: 125vh;
 	}
+	.description p {
+		width: 80%;
+	}
 }
 
 @media screen and (min-width: 501px) {
 	.header {
 		height: 100vh;
+	}
+
+	.description p {
+		width: 50%;
 	}
 }
 
