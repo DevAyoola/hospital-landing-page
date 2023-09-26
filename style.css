@@ -1,0 +1,147 @@
+/*Navigation Style*/
+.navbar {
+	background: #034bd1;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #f4f4f4 !important;
+	cursor: pointer;
+}
+
+.navbar-brand img {
+	height: 30px;
+	width: 30px;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+	background: #f4f4f4;
+	color: #034bd1 !important;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.navbar-toggler {
+	background: #fff !important;
+}
+
+/*Header Style*/
+.header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+		url("https://lh3.googleusercontent.com/drive-viewer/AITFw-xzgTa-K2IteWt3kn8A_DV7zicZjGSf3xeMbA1-068NVV82S0nxHdEVA5q5P3zu2bBZv8GLMm_eAa1u6WyTIGY81xyBfQ=s1600");
+	background-size: cover;
+	background-position: relative;
+	padding-top: 12px;
+}
+
+.description {
+	position: absolute;
+	top: 30%;
+	margin: auto;
+	padding: 2em;
+}
+
+.description h1 {
+	color: #034bd1;
+}
+.description p {
+	color: rgb(37, 37, 37);
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.description button {
+	border: 1px solid #034bd1;
+	background: #034bd1;
+	color: #fff;
+}
+
+/*Services Section Style*/
+
+.card {
+	height: 280px;
+	cursor: pointer;
+}
+
+.card-title:hover {
+	color: #0d60fc;
+}
+
+.servicesIcon {
+	margin-top: 20px;
+	height: 170px;
+	width: auto;
+	align-content: center;
+}
+
+/*Doctors Section Style*/
+#doctors {
+	background-color: rgb(240, 240, 240);
+}
+
+/*News Feed Section Style*/
+.newsfeedImg {
+	margin-top: 20px;
+	height: 200px;
+	width: width;
+}
+
+/*About Us Section Style*/
+#about {
+	background-color: rgb(240, 240, 240);
+}
+
+/*Footer Section Style*/
+#footerup {
+	background-color: #034bd1;
+	padding-left: 40px;
+}
+
+#footerup img {
+	height: 25px;
+}
+
+#footerdown {
+	background-color: #01102b;
+}
+
+/* CONTACT PAGE */
+.form {
+	background-color: lightslategray;
+	border-radius: 5px;
+	font-size: large;
+	padding: 20px;
+}
+
+#contactss {
+	margin: -65px 0px 0px 0px;
+}
+
+#contactss > .container {
+	background-color: lightslategray;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+	.header {
+		height: 125vh;
+	}
+}
+
+@media screen and (min-width: 501px) {
+	.header {
+		height: 100vh;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.nav-link:hover {
+		padding-left: 5px;
+	}
+}
