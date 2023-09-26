@@ -42,7 +42,6 @@
 
 .description {
 	position: absolute;
-	top: 30%;
 	margin: auto;
 	padding: 2em;
 }
@@ -66,7 +65,7 @@
 /*Services Section Style*/
 
 .card {
-	height: 280px;
+	height: max-content;
 	cursor: pointer;
 }
 
@@ -89,8 +88,7 @@
 /*News Feed Section Style*/
 .newsfeedImg {
 	margin-top: 20px;
-	height: 200px;
-	width: width;
+	height: auto;
 }
 
 /*About Us Section Style*/
@@ -129,22 +127,33 @@
 	border-radius: 10px;
 }
 
-@media screen and (max-width: 500px) {
-	.header {
-		height: 125vh;
-	}
-	.description p {
-		width: 70%;
-	}
-}
-
-@media screen and (min-width: 501px) {
+@media screen and (max-width: 480px) {
 	.header {
 		height: 100vh;
 	}
+	.description {
+		top: 20%;
+	}
+	.description p {
+		width: 85%;
+	}
+	.newsfeedImg {
+		width: 280px;
+	}
+}
 
+@media screen and (min-width: 481px) {
+	.header {
+		height: 100vh;
+	}
+	.description {
+		top: 30%;
+	}
 	.description p {
 		width: 50%;
+	}
+	.newsfeedImg {
+		width: 470px;
 	}
 }
 
